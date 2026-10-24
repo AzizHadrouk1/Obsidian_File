@@ -24,7 +24,7 @@
               "type": "markdown",
               "state": {
                 "file": "Templates/Daily Note.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true,
                 "backlinks": false
               },
@@ -191,9 +191,21 @@
               "icon": "calendar-with-checkmark",
               "title": "Calendar"
             }
+          },
+          {
+            "id": "c99c3bd6d1dac39f",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "Templates/Daily Note.md"
+              },
+              "icon": "lucide-info",
+              "title": "File properties"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -214,9 +226,16 @@
   },
   "active": "1cd4839087c561b1",
   "lastOpenFiles": [
-    "06. Projects/03. Completed/Completed Projects.md",
+    "04 - Career/04. Personal Brand/Personal Brand Strategy.md",
+    "01. Dashboard/Home.md",
+    "04 - Career/04. Personal Brand",
+    "04 - Career",
+    "Untitled.md",
     "Templates/Daily Note.md",
+    "03 - Life/Goals/Current Goals.md",
     "02. Tasks & Planning/05. Meetings/Meetings.md",
+    "04. Career/04. Personal Brand/Personal Brand Strategy.md",
+    "06. Projects/03. Completed/Completed Projects.md",
     "02. Tasks & Planning/05. Meetings/Untitled.base",
     "01. Dashboard/Finance Dashboard.md",
     "01. Dashboard/Weekly Review.md",
@@ -224,12 +243,9 @@
     "01. Dashboard/Projects Dashboard.md",
     "01. Dashboard/Career Dashboard.md",
     "01. Dashboard/Life Dashboard.md",
-    "01. Dashboard/Home.md",
-    "Untitled.md",
     "Untitled.base",
     "01. Dashboard/LifeOS.base",
     "06. Projects/00. Project Ideas/Shopyflouci/Shopyflouci.md",
-    "03 - Life/Goals/Current Goals.md",
     "01. Dashboard/Using LifeOS.md",
     "01. Dashboard/People Dashboard.md",
     "07. People & Resources/Books & Articles/Books and Articles.md",
@@ -245,8 +261,6 @@
     "_backup/2026-10-24",
     "_backup",
     "03 - Life/Goals",
-    "03 - Life",
-    "06. Projects/00. Project Ideas/Location des trontinette",
-    "06. Projects/02. On Hold/HeptaNet"
+    "03 - Life"
   ]
 }

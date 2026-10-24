@@ -124,27 +124,58 @@
     width: 30%;
   }
 }
+
+/* Property bar */
 .daily-planner .metadata-container {
   background: var(--background-secondary);
   border: 1px solid var(--background-modifier-border);
   border-radius: 14px;
-  padding: 8px 14px 4px;
+  padding: 12px;
   margin: 0 0 1.4em;
 }
 
-.daily-planner .metadata-property {
-  padding: 5px 0;
-  border-bottom: 1px solid var(--background-modifier-border);
+.daily-planner .metadata-properties {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
 }
 
-.daily-planner .metadata-property:last-child {
-  border-bottom: none;
+.daily-planner .metadata-property {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 4px;
+  margin: 0;
+  padding: 8px 10px;
+  background: var(--background-primary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 10px;
+}
+
+.daily-planner .metadata-property[data-property-key="date"],
+.daily-planner .metadata-property[data-property-key="main-goal"],
+.daily-planner .metadata-property[data-property-key="one-thing"],
+.daily-planner .metadata-property[data-property-key="tomorrow-priority"] {
+  grid-column: 1 / -1;
+}
+
+.daily-planner .metadata-property[data-property-key="type"],
+.daily-planner .metadata-property[data-property-key="cssclasses"] {
+  display: none;
 }
 
 .daily-planner .metadata-property-key {
+  width: auto;
+  flex: none;
   color: var(--text-muted);
   font-size: 0.78em;
   font-weight: 700;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+}
+
+@media (max-width: 600px) {
+  .daily-planner .metadata-properties {
+    grid-template-columns: 1fr;
+  }
 }

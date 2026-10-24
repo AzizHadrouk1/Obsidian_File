@@ -1,10 +1,15 @@
-
 ---
-type: daily
 date: "{{date:YYYY-MM-DD}}"
-day-rating:
+mood:
 energy:
 sleep-hours:
+day-rating:
+exercise: false
+reading: false
+main-goal:
+one-thing:
+tomorrow-priority:
+type: daily
 cssclasses:
   - daily-planner
 ---
@@ -12,11 +17,7 @@ cssclasses:
 # ☀️ Daily Planner
 
 > [!abstract] 🎯 TODAY'S INTENTION
-> **Main goal:** 
->
-> **If I accomplish one thing today, it will be:** 
->
-> **Energy / mood:** 
+> **Context:** 
 
 ---
 
@@ -134,15 +135,6 @@ cssclasses:
 > [!question] REFLECTION
 > - What did I learn today?
 > - What could I improve tomorrow?
-
-> [!abstract] 📊 DAILY SCORE
-> **Rating:** /10
->
-> **Energy:** /5
->
-> **Sleep:** hours
->
-> **Tomorrow's first priority:** 
 
 ---
 
