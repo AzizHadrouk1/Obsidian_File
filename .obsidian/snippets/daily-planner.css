@@ -1,0 +1,150 @@
+/* Daily Planner — works with the `daily-planner` cssclass.
+   Uses Obsidian theme variables for light/dark theme compatibility. */
+
+.daily-planner {
+  --h1-color: #60a5fa;
+  --h2-color: #93c5fd;
+  --h3-color: #bfdbfe;
+  --dp-accent: #3b82f6;
+}
+
+.daily-planner h1 {
+  font-size: 2.1em;
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.daily-planner h2 {
+  margin-top: 2em;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.daily-planner .callout {
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 14px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  padding: 12px;
+  margin: 12px 0;
+}
+
+.daily-planner .callout-title {
+  font-size: 0.85em;
+  font-weight: 750;
+  letter-spacing: 0.04em;
+}
+
+.daily-planner .callout-content {
+  line-height: 1.75;
+}
+
+.daily-planner a.internal-link {
+  text-decoration: none;
+}
+
+.daily-planner a.internal-link:hover {
+  color: var(--dp-accent);
+}
+
+/* Daily Schedule table */
+.daily-planner table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: separate;
+  border-spacing: 0;
+  overflow: hidden;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 12px;
+  background: var(--background-secondary);
+  font-size: 0.94em;
+}
+
+.daily-planner thead th {
+  padding: 14px 12px;
+  background: var(--background-secondary-alt);
+  color: var(--text-muted);
+  font-size: 0.78em;
+  font-weight: 800;
+  letter-spacing: 0.07em;
+  border-bottom: 2px solid var(--background-modifier-border);
+}
+
+.daily-planner tbody td {
+  padding: 16px 12px;
+  vertical-align: middle;
+  line-height: 1.6;
+  border-bottom: 1px solid var(--background-modifier-border);
+  overflow-wrap: anywhere;
+}
+
+.daily-planner tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.daily-planner tbody tr:hover {
+  background: var(--background-modifier-hover);
+}
+
+.daily-planner th:first-child,
+.daily-planner td:first-child {
+  width: 28%;
+}
+
+.daily-planner th:nth-child(2),
+.daily-planner td:nth-child(2) {
+  width: 57%;
+}
+
+.daily-planner th:last-child,
+.daily-planner td:last-child {
+  width: 15%;
+  text-align: center;
+}
+
+/* Schedule status checkboxes */
+.daily-planner td input[type="checkbox"] {
+  transform: scale(1.12);
+  accent-color: var(--dp-accent);
+}
+
+@media (max-width: 600px) {
+  .daily-planner table {
+    font-size: 0.82em;
+  }
+
+  .daily-planner thead th,
+  .daily-planner tbody td {
+    padding: 10px 7px;
+  }
+
+  .daily-planner th:first-child,
+  .daily-planner td:first-child {
+    width: 30%;
+  }
+}
+.daily-planner .metadata-container {
+  background: var(--background-secondary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 14px;
+  padding: 8px 14px 4px;
+  margin: 0 0 1.4em;
+}
+
+.daily-planner .metadata-property {
+  padding: 5px 0;
+  border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.daily-planner .metadata-property:last-child {
+  border-bottom: none;
+}
+
+.daily-planner .metadata-property-key {
+  color: var(--text-muted);
+  font-size: 0.78em;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}

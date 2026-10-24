@@ -1,0 +1,48 @@
+
+/* Personal OS — Home dashboard */
+
+.personal-home {
+  --h1-color: #60a5fa;
+  --h2-color: #93c5fd;
+  --h3-color: #bfdbfe;
+}
+
+.personal-home h1 {
+  font-size: 2.2em;
+  font-weight: 750;
+  letter-spacing: -0.04em;
+  border-bottom: 1px solid var(--background-modifier-border);
+  padding-bottom: 0.5em;
+}
+
+.personal-home h2 {
+  margin-top: 1.8em;
+  padding-bottom: 0.3em;
+}
+
+.personal-home .callout {
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 12px;
+  background: var(--background-secondary);
+  transition: border-color 150ms ease;
+}
+
+.personal-home .callout:hover {
+  border-color: #3b82f6;
+}
+
+.personal-home .callout-title {
+  font-weight: 700;
+}
+
+.personal-home .callout-content {
+  line-height: 1.8;
+}
+
+.personal-home a.internal-link {
+  text-decoration: none;
+}
+
+.personal-home a.internal-link:hover {
+  color: #60a5fa;
+}

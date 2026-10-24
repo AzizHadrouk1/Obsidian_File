@@ -1,0 +1,252 @@
+{
+  "main": {
+    "id": "56c4e1ea1ec1e176",
+    "type": "split",
+    "children": [
+      {
+        "id": "1bf571a9d9edabb5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dbb516a61ae7f0f2",
+            "type": "leaf",
+            "state": {
+              "type": "home-cards-view",
+              "state": {},
+              "icon": "layout-grid",
+              "title": "Home"
+            }
+          },
+          {
+            "id": "1cd4839087c561b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Templates/Daily Note.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Daily Note"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "bc186f8c0ccaccfc",
+    "type": "split",
+    "children": [
+      {
+        "id": "9c55c21afb5062fa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fb85bc2ed8fe5a59",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byCreatedTimeReverse",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "079e760dc24c9a07",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "7ea91588bd0c69d3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a6f95b1ba8c8bcae",
+    "type": "split",
+    "children": [
+      {
+        "id": "6dba9675c90aadee",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5d61bbe0cbc3b849",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Welcome.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "a055515b3405f88b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Templates/Daily Note.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "d27042f6cb927da4",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "f8b70d84bdc434f4",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "deea591b71d84b2f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Templates/Daily Note.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "76decb47d2332290",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "hearth:Open Hearth home": false,
+      "home-cards:Open home page": false
+    }
+  },
+  "active": "1cd4839087c561b1",
+  "lastOpenFiles": [
+    "06. Projects/03. Completed/Completed Projects.md",
+    "Templates/Daily Note.md",
+    "02. Tasks & Planning/05. Meetings/Meetings.md",
+    "02. Tasks & Planning/05. Meetings/Untitled.base",
+    "01. Dashboard/Finance Dashboard.md",
+    "01. Dashboard/Weekly Review.md",
+    "01. Dashboard/Learning Dashboard.md",
+    "01. Dashboard/Projects Dashboard.md",
+    "01. Dashboard/Career Dashboard.md",
+    "01. Dashboard/Life Dashboard.md",
+    "01. Dashboard/Home.md",
+    "Untitled.md",
+    "Untitled.base",
+    "01. Dashboard/LifeOS.base",
+    "06. Projects/00. Project Ideas/Shopyflouci/Shopyflouci.md",
+    "03 - Life/Goals/Current Goals.md",
+    "01. Dashboard/Using LifeOS.md",
+    "01. Dashboard/People Dashboard.md",
+    "07. People & Resources/Books & Articles/Books and Articles.md",
+    "06. Projects/00. Project Ideas/Location des trontinette/Location des trontinette.md",
+    "02. Tasks & Planning/04. Annual/Annual Goals.md",
+    "02. Tasks & Planning/05. Meetings/ggg.md",
+    "02. Tasks & Planning/Planning.md",
+    "00. Inbox/03. To Process/To Process.md",
+    "00. Inbox/02. Ideas/Ideas.md",
+    "00. Inbox/01. Quick Notes/Quick Notes.md",
+    "00. Inbox/Inbox.md",
+    "02. Tasks & Planning/05. Meetings",
+    "_backup/2026-10-24",
+    "_backup",
+    "03 - Life/Goals",
+    "03 - Life",
+    "06. Projects/00. Project Ideas/Location des trontinette",
+    "06. Projects/02. On Hold/HeptaNet"
+  ]
+}
