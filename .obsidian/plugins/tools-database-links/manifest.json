@@ -1,0 +1,9 @@
+{
+  "id": "tools-database-links",
+  "name": "Database Graph Links",
+  "version": "1.2.1",
+  "minAppVersion": "1.9.0",
+  "description": "Keeps graph links from resource and inbox databases to their entry notes.",
+  "author": "LifeOS",
+  "isDesktopOnly": false
+}

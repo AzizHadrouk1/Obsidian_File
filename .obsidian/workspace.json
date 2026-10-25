@@ -4,36 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "1bf571a9d9edabb5",
+        "id": "d05d263b2daabb9a",
         "type": "tabs",
         "children": [
           {
-            "id": "dbb516a61ae7f0f2",
-            "type": "leaf",
-            "state": {
-              "type": "home-cards-view",
-              "state": {},
-              "icon": "layout-grid",
-              "title": "Home"
-            }
-          },
-          {
-            "id": "1cd4839087c561b1",
+            "id": "f5d2a8007cfd1797",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/Daily Note.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": false
+                "file": "02. Tasks & Planning/PeriodicNotes/2026/Daily/10/2026-10-25.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
-              "title": "Daily Note"
+              "title": "2026-10-25"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -43,8 +41,26 @@
     "type": "split",
     "children": [
       {
+        "id": "d437f8f5ebe0f707",
+        "type": "tabs",
+        "dimension": 40.54054054054054,
+        "children": [
+          {
+            "id": "0d7d05842a0ff017",
+            "type": "leaf",
+            "state": {
+              "type": "periodic-para",
+              "state": {},
+              "icon": "file-plus",
+              "title": "LifeOS"
+            }
+          }
+        ]
+      },
+      {
         "id": "9c55c21afb5062fa",
         "type": "tabs",
+        "dimension": 59.45945945945946,
         "children": [
           {
             "id": "fb85bc2ed8fe5a59",
@@ -53,8 +69,8 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "byCreatedTimeReverse",
-                "autoReveal": false,
-                "showSearch": false,
+                "autoReveal": true,
+                "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
@@ -67,7 +83,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#meeting",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -130,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Templates/Daily Note.md",
+                "file": "02. Tasks & Planning/PeriodicNotes/2026/Daily/10/2026-10-25.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -173,7 +189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Templates/Daily Note.md",
+                "file": "02. Tasks & Planning/PeriodicNotes/2026/Daily/10/2026-10-25.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -183,7 +199,31 @@
             }
           },
           {
-            "id": "76decb47d2332290",
+            "id": "c99c3bd6d1dac39f",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "02. Tasks & Planning/PeriodicNotes/2026/Daily/10/2026-10-25.md"
+              },
+              "icon": "lucide-info",
+              "title": "File properties"
+            }
+          },
+          {
+            "id": "cb884ec7113d7b2e",
+            "type": "leaf",
+            "state": {
+              "type": "agent-console-chat-view",
+              "state": {
+                "initialAgentId": "codex-acp"
+              },
+              "icon": "agent-console",
+              "title": "Agent console"
+            }
+          },
+          {
+            "id": "333c7158be1f2935",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -191,28 +231,17 @@
               "icon": "calendar-with-checkmark",
               "title": "Calendar"
             }
-          },
-          {
-            "id": "c99c3bd6d1dac39f",
-            "type": "leaf",
-            "state": {
-              "type": "file-properties",
-              "state": {
-                "file": "Templates/Daily Note.md"
-              },
-              "icon": "lucide-info",
-              "title": "File properties"
-            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 333.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "periodic-para:LifeOS Creation": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -221,46 +250,51 @@
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "hearth:Open Hearth home": false,
-      "home-cards:Open home page": false
+      "home-cards:Open home page": false,
+      "periodic-para:Quick record": false,
+      "obsidian-kanban:Create new board": false,
+      "project-manager:Project manager": false,
+      "agent-console:Agent Console": false
     }
   },
-  "active": "1cd4839087c561b1",
+  "active": "f5d2a8007cfd1797",
   "lastOpenFiles": [
-    "04 - Career/04. Personal Brand/Personal Brand Strategy.md",
+    "02. Tasks & Planning/PeriodicNotes/Templates/Daily.md",
+    "02. Tasks & Planning/PeriodicNotes/2026/Daily/10/2026-10-25.md",
+    "02. Tasks & Planning/PeriodicNotes/Templates/Weekly.md",
+    "00. Inbox/Ideas & Quick Notes Database.md",
+    "00. Inbox/Entries/Note about the Obsidian Daily plan template.md",
+    "00. Inbox/Entries/Note About UX in Obsidian Meeting template.md",
+    "02. Tasks & Planning/PeriodicNotes/Templates/Meetings.md",
+    "02. Tasks & Planning/PeriodicNotes/2026/Daily/10",
     "01. Dashboard/Home.md",
-    "04 - Career/04. Personal Brand",
-    "04 - Career",
-    "Untitled.md",
-    "Templates/Daily Note.md",
-    "03 - Life/Goals/Current Goals.md",
-    "02. Tasks & Planning/05. Meetings/Meetings.md",
-    "04. Career/04. Personal Brand/Personal Brand Strategy.md",
-    "06. Projects/03. Completed/Completed Projects.md",
-    "02. Tasks & Planning/05. Meetings/Untitled.base",
-    "01. Dashboard/Finance Dashboard.md",
-    "01. Dashboard/Weekly Review.md",
-    "01. Dashboard/Learning Dashboard.md",
-    "01. Dashboard/Projects Dashboard.md",
-    "01. Dashboard/Career Dashboard.md",
-    "01. Dashboard/Life Dashboard.md",
-    "Untitled.base",
-    "01. Dashboard/LifeOS.base",
-    "06. Projects/00. Project Ideas/Shopyflouci/Shopyflouci.md",
-    "01. Dashboard/Using LifeOS.md",
-    "01. Dashboard/People Dashboard.md",
-    "07. People & Resources/Books & Articles/Books and Articles.md",
-    "06. Projects/00. Project Ideas/Location des trontinette/Location des trontinette.md",
-    "02. Tasks & Planning/04. Annual/Annual Goals.md",
-    "02. Tasks & Planning/05. Meetings/ggg.md",
-    "02. Tasks & Planning/Planning.md",
-    "00. Inbox/03. To Process/To Process.md",
-    "00. Inbox/02. Ideas/Ideas.md",
-    "00. Inbox/01. Quick Notes/Quick Notes.md",
+    "00. Inbox/Entries",
     "00. Inbox/Inbox.md",
-    "02. Tasks & Planning/05. Meetings",
-    "_backup/2026-10-24",
-    "_backup",
-    "03 - Life/Goals",
-    "03 - Life"
+    "00. Inbox/02. Ideas/Catch The Idea.md",
+    "02. Tasks & Planning/PeriodicNotes/Templates/Annual.md",
+    "02. Tasks & Planning/PeriodicNotes/Templates/Monthly.md",
+    "05. People & Resources/Tools & Software/Tools Database.md",
+    "Projects/Mindly/Mindly.md",
+    "Projects/Mindly/_tasks",
+    "Projects/Mindly",
+    "Projects/ShopyFloci/ShopyFloci.md",
+    "Projects/ShopyFloci/_tasks",
+    "Projects/ShopyFloci",
+    "Projects/YallaSport/YallaSport.md",
+    "Projects/YallaSport/_tasks",
+    "Projects/YallaSport",
+    "Projects/Adapt/Adapt.md",
+    "Projects/Adapt/_tasks",
+    "Projects/Adapt",
+    "05. People & Resources/People/People Database.md",
+    "05. People & Resources/Companies/Companies Database.md",
+    "05. People & Resources/Books & Articles/Books & Articles Database.md",
+    "Untitled.md",
+    "03. Life/Habits/Habit Tracker.md",
+    "03. Life/Goals/Current Goals.md",
+    "03 - Life/Goals/Current Goals.md",
+    "Projects/kkk/kkk.md",
+    "07. People & Resources/Tools & Software/Entries/test2.md",
+    "Untitled.canvas"
   ]
 }

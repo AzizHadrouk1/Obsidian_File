@@ -1,0 +1,180 @@
+{
+  "claude": {
+    "id": "claude-code-acp",
+    "displayName": "Claude Code",
+    "apiKeySecretId": "",
+    "command": "claude-agent-acp",
+    "args": [],
+    "env": [],
+    "defaultWorkingDirectory": ""
+  },
+  "codex": {
+    "id": "codex-acp",
+    "displayName": "Codex",
+    "apiKeySecretId": "",
+    "command": "codex-acp",
+    "args": [],
+    "env": [],
+    "defaultWorkingDirectory": ""
+  },
+  "gemini": {
+    "id": "gemini-cli",
+    "displayName": "Gemini CLI",
+    "apiKeySecretId": "",
+    "command": "gemini",
+    "args": [
+      "--experimental-acp"
+    ],
+    "env": [],
+    "defaultWorkingDirectory": ""
+  },
+  "kiro": {
+    "id": "kiro-cli",
+    "displayName": "Kiro CLI",
+    "command": "kiro-cli",
+    "args": [
+      "acp"
+    ],
+    "env": [],
+    "defaultWorkingDirectory": ""
+  },
+  "opencode": {
+    "id": "opencode-acp",
+    "displayName": "OpenCode",
+    "command": "opencode",
+    "args": [
+      "acp"
+    ],
+    "env": [],
+    "defaultWorkingDirectory": ""
+  },
+  "customAgents": [],
+  "defaultAgentId": "codex-acp",
+  "autoAllowPermissions": false,
+  "activeNoteAsDefaultContext": true,
+  "migrationNoticeShown": false,
+  "enableSystemNotifications": true,
+  "language": "auto",
+  "debugMode": false,
+  "nodePath": "",
+  "defaultWorkingDirectory": "",
+  "exportSettings": {
+    "defaultFolder": "Agent Console",
+    "filenameTemplate": "agent_console_{date}_{time}",
+    "autoExportOnNewChat": false,
+    "autoExportOnCloseChat": false,
+    "openFileAfterExport": true,
+    "includeImages": true,
+    "imageLocation": "obsidian",
+    "imageCustomFolder": "Agent Console",
+    "frontmatterTag": "agent-console"
+  },
+  "windowsWslMode": false,
+  "sendMessageShortcut": "enter",
+  "chatViewLocation": "right",
+  "titleStrategy": "agent-suggested",
+  "obsidianSystemPrompt": {
+    "blocks": {
+      "hostIdentity": true,
+      "rendering": true,
+      "workingDirectory": true,
+      "vaultCollaboration": true,
+      "interactiveButtons": true,
+      "respondInLanguage": true
+    },
+    "appendText": "",
+    "customText": "",
+    "mode": "options"
+  },
+  "displaySettings": {
+    "showEmojis": true,
+    "fontSize": null
+  },
+  "savedSessions": [
+    {
+      "sessionId": "01a16eaa-42ca-7c20-a619-8c003b1f1a28",
+      "agentId": "codex-acp",
+      "cwd": "C:\\Users\\Aziz\\Documents\\AZIZ\\LifeOS\\LifeOS",
+      "title": "Start a conversation",
+      "createdAt": "2026-10-24T16:07:12.275Z",
+      "updatedAt": "2026-10-24T23:52:29.402Z"
+    }
+  ],
+  "sessionHistorySource": "local",
+  "agentSessionMetaCache": {
+    "codex-acp": {
+      "sessions": [
+        {
+          "sessionId": "01a16eaa-42ca-7c20-a619-8c003b1f1a28",
+          "cwd": "C:\\Users\\Aziz\\Documents\\AZIZ\\LifeOS\\LifeOS",
+          "title": "Configure Obsidian agent instructions",
+          "updatedAt": "2026-10-24T23:38:20.000Z"
+        },
+        {
+          "sessionId": "01a1633c-3feb-7601-bfd0-d6a72ae9f215",
+          "cwd": "C:\\Users\\Aziz\\Documents\\AZIZ\\tools",
+          "title": "Improve Outlook and ChatGPT UI",
+          "updatedAt": "2026-10-22T13:21:01.000Z"
+        },
+        {
+          "sessionId": "01a1631b-1cd9-73a0-8ffe-dd4712220a90",
+          "cwd": "C:\\Users\\Aziz\\Documents\\AZIZ\\tools",
+          "title": "Log in to Codex",
+          "updatedAt": "2026-10-22T10:16:04.000Z"
+        },
+        {
+          "sessionId": "01a162fe-8869-7731-88c0-8cc8cee33576",
+          "cwd": "C:\\Users\\Aziz\\Documents\\TUNAV\\Product & Innovation Departement\\Company Portfolio",
+          "title": "Improve Sprint UI and settings",
+          "updatedAt": "2026-10-22T15:57:15.000Z"
+        },
+        {
+          "sessionId": "01a14fea-0abf-7612-b614-d60daebdce85",
+          "cwd": "C:\\Users\\Aziz\\Documents\\AZIZ\\ShopyFlous\\New\\shopyflous-test",
+          "title": "Add tenant website builder",
+          "updatedAt": "2026-10-20T23:41:21.000Z"
+        },
+        {
+          "sessionId": "01a146cf-d3f2-7273-8f47-bba49616d76f",
+          "cwd": "C:\\Users\\Aziz\\Documents\\AZIZ\\test\\testapp",
+          "title": "Reconstruct Cursor IDE core",
+          "updatedAt": "2026-10-17T16:58:28.000Z"
+        },
+        {
+          "sessionId": "01a13464-6af3-7d31-a7c2-594e92ce34b6",
+          "cwd": "C:\\Users\\Aziz\\Documents\\TUNAV\\Orient Dev\\Frontend",
+          "title": "Afficher les données en graphiques",
+          "updatedAt": "2026-10-13T09:27:16.000Z"
+        }
+      ],
+      "syncedAt": "2026-10-24T23:38:20.600Z"
+    }
+  },
+  "lastUsedModels": {},
+  "lastUsedModes": {},
+  "restoreTabsOnStartup": true,
+  "confirmCloseWithMultipleTabs": true,
+  "quickPromptsFolder": "Quick Prompts",
+  "perLeafTabStates": [
+    {
+      "leafId": "cb884ec7113d7b2e",
+      "tabs": [
+        {
+          "tabId": "tab-7e2135cb",
+          "agentId": "codex-acp",
+          "label": "Start a conversation",
+          "labelIsCustom": false,
+          "sessionId": "01a16eaa-42ca-7c20-a619-8c003b1f1a28",
+          "tabOrder": 0,
+          "scrollPosition": 0,
+          "draftText": "",
+          "workingDirectory": "C:\\Users\\Aziz\\Documents\\AZIZ\\LifeOS\\LifeOS"
+        }
+      ],
+      "activeTabId": "tab-7e2135cb"
+    }
+  ],
+  "legacySessionsMigrated": true,
+  "settingsImportOfferShown": false,
+  "hasCompletedSetup": true
+}

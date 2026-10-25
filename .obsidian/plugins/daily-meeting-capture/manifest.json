@@ -1,0 +1,9 @@
+{
+  "id": "daily-meeting-capture",
+  "name": "Daily Meeting Capture",
+  "version": "1.0.0",
+  "minAppVersion": "1.5.0",
+  "description": "Lists Quick Record entries tagged #meeting in the Meetings section of daily notes.",
+  "author": "LifeOS",
+  "isDesktopOnly": false
+}
